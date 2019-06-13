@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n=123,d,a,b,c,sum=0;
+    int n,d,a,b,c,sum=0;
+    scanf("%d",&n);
     while(n>0)
     {
         a=(n%10);
