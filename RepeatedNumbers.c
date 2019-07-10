@@ -19,7 +19,7 @@ int main()
         }
         if(count>3)
         {
-            printf("the %d",a[i]);
+            printf("%d",a[i]);
             break;
 
         }
