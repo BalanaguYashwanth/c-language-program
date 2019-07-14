@@ -27,6 +27,6 @@ for(i=0;i<n;i++)
 k++;
 }
 if(k==n)
-    printf("UNIQUE");
+    printf("unique");
 }
 
