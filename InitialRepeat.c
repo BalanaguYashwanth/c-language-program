@@ -4,15 +4,16 @@
 int main()
 {
     int i,j,a[20],count=0,n,k=0;
-    for(i=0;i<5;i++)
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     }
 
-for(i=0;i<5;i++)
+for(i=0;i<n;i++)
 {
     count=0;
-    for(j=0;j<4;j++)
+    for(j=0;j<n-1;j++)
     {
         if(a[i]==a[j])
             count++;
@@ -25,7 +26,7 @@ for(i=0;i<5;i++)
         }
 k++;
 }
-if(k==5)
+if(k==n)
     printf("UNIQUE");
 }
 
