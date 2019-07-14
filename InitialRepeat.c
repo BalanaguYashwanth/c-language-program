@@ -18,7 +18,7 @@ for(i=0;i<n;i++)
         if(a[i]==a[j])
             count++;
     }
-        if(count==2)
+        if(count>=2)
         {
             printf("%d",a[i]);
             break;
