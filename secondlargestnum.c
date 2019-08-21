@@ -28,6 +28,6 @@ int main()
     }
 
 
-printf("the value is %d",sdmax);
+printf("the value is %d",temp);
 
 }
