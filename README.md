@@ -35,11 +35,12 @@ Enter your
 is not sum of 5 numbers
 Hence answer is 4
 
-sample input
+sample input:
 
 5
 
 12101213
 
-sample output
+sample output:
+
 4
