@@ -11,6 +11,7 @@ void main()
 {
     struct node *head=NULL;
     head=(struct node*)malloc(sizeof(struct node));
+    printf("%ld",sizeof(head));
     head->data=12;
     head->link=NULL;
 

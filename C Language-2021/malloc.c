@@ -8,7 +8,7 @@ struct details{
 
 void main()
 {
-    struct details* ptr;
+    struct details* ptr;;
     ptr=(struct details*)malloc(sizeof(struct details));
     if(ptr==NULL)
     {
